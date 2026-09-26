@@ -1,0 +1,33 @@
+# Backend
+backend/target/
+backend/.idea/
+*.class
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+application-local.properties
+
+# Sensitive/test files
+backend/src/main/resources/application.properties
+backend/client.json
+backend/login.json
+backend/request.json
+backend/tmp-login.json
+
+# Uploaded/generated content
+backend/uploads/
+
+# OS
+Thumbs.db
+.DS_Store
